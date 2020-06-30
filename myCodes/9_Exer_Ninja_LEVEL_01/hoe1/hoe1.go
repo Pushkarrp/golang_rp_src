@@ -1,0 +1,18 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	//declare and assign
+	x := 42
+	y := "James Bond"
+	z := true
+
+	fmt.Println(x, "\t", y, "\t", z)
+
+	fmt.Println(x)
+	fmt.Println(y)
+	fmt.Println(z)
+}
